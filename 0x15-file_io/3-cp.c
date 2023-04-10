@@ -8,7 +8,7 @@ void close_file(int fd);
 /**
  * create_buffer - Allocates 1024 bytes for a buffer.
  * @file: The name of the file buffer is storing chars for.
- *
+ * program frees the buffer using the free function
  * Return: A pointer to the newly-allocated buffer.
  */
 char *create_buffer(char *file)
